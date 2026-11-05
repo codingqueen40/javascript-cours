@@ -1,0 +1,26 @@
+body {
+    font-family: system-ui, sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #111;
+    color: #fff;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#btn-code {
+    background: #f7df1e;
+}
+
+#message {
+    font-size: 1.5rem;
+}
