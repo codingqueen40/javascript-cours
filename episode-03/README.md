@@ -35,7 +35,7 @@ episode-03/
 ## 🎯 Ta mission de la semaine
 
 Quand tu **bats ton record**, Code Streak affiche « 🎉 Nouveau record ! », mais seulement au moment où tu le bats.
-Indice : tout se passe dans le `if (jours > record) { … }`. Solution au début de l'épisode 4.
+Indice : tout se passe dans le `if (jours > record) { … }`. Solution au début de l'épisode 4 : [episode-04](../episode-04/).
 
 ⬅️ [Tous les épisodes](../README.md#fr)
 
@@ -74,6 +74,6 @@ element, and inside the click the `joursRestants` box, created **inside** its ow
 ### 🎯 This week's mission
 
 When you **beat your record**, Code Streak shows "🎉 Nouveau record !" (*New record!*), but only at the moment you beat it.
-Hint: it all happens inside `if (jours > record) { … }`. Solution at the start of episode 4.
+Hint: it all happens inside `if (jours > record) { … }`. Solution at the start of episode 4: [episode-04](../episode-04/).
 
 ⬅️ [All episodes](../README.md#en)
