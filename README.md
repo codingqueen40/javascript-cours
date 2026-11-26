@@ -20,7 +20,8 @@ Chaque dossier contient le code **tel qu'il est à la fin de l'épisode** : il e
 javascript-cours/
 ├── episode-01/   → tout se passe dans la console (console.js = aide-mémoire)
 ├── episode-02/   → Code Streak en 3 fichiers : index.html, style.css, script.js
-└── episode-03/   → + le record et l'objectif · demos-console.js
+├── episode-03/   → + le record et l'objectif · demos-console.js
+└── episode-04/   → + le champ objectif réglable, Number() · demos-console.js
 ```
 
 Pour copier un fichier : ouvre-le, puis clique sur l'icône **Copier** (*Copy raw file*) en haut à droite du code.
@@ -28,7 +29,7 @@ Pour copier un fichier : ouvre-le, puis clique sur l'icône **Copier** (*Copy ra
 ### Faire tourner Code Streak chez toi
 
 1. Récupère les fichiers : bouton vert **Code** › **Download ZIP** en haut de cette page, puis décompresse le dossier
-   et garde le dossier de l'épisode qui t'intéresse (par exemple `episode-03`).
+   et garde le dossier de l'épisode qui t'intéresse (par exemple `episode-04`).
    *(Tu connais Git ? `git clone https://github.com/codingqueen40/javascript-cours.git`)*
 2. Ouvre ce dossier d'épisode dans **VS Code** (Fichier › Ouvrir le dossier…). Si un bandeau « mode Restreint » apparaît, fais confiance au dossier.
 3. Ouvre `index.html`, puis lance l'aperçu avec l'extension **Live Preview** : clic droit sur `index.html` › **Show Preview**.
@@ -40,7 +41,8 @@ Pour copier un fichier : ouvre-le, puis clique sur l'icône **Copier** (*Copy ra
 | 1 | Ta 1ʳᵉ mini-app JavaScript, sans rien installer | la console, le DOM, une variable, un événement, une condition | [episode-01](episode-01/) |
 | 2 | Ton atelier de dev + Code Streak en 3 fichiers | VS Code et Live Preview, une page HTML ligne par ligne, JavaScript dans son propre fichier, le bug du `<head>` et `defer`, 5 règles de syntaxe | [episode-02](episode-02/) |
 | 3 | Variables : `let`, `const`… et le procès de `var` | déclarer, initialiser, réaffecter, `let` ou `const`, la portée, les pièges de `var`, bien nommer ses variables | [episode-03](episode-03/) |
-| 4 | Les types de données | à venir | |
+| 4 | Les types de données : pourquoi 7 + 1 = 71 | les 7 types primitifs et `typeof`, `NaN` et la précision des nombres, `BigInt`, `null` ou `undefined`, le piège du `+` (coercitions), `Number()` | [episode-04](episode-04/) |
+| 5 | Les opérateurs (et les pièges de `==`) | à venir | |
 
 Toutes les vidéos sont sur la chaîne : [youtube.com/@codingqueen40](https://www.youtube.com/@codingqueen40)
 
@@ -78,7 +80,8 @@ Each folder contains the code **as it is at the end of the episode**: it's compl
 javascript-cours/
 ├── episode-01/   → everything happens in the console (console.js = cheat sheet)
 ├── episode-02/   → Code Streak in 3 files: index.html, style.css, script.js
-└── episode-03/   → + the record and the goal · demos-console.js
+├── episode-03/   → + the record and the goal · demos-console.js
+└── episode-04/   → + the adjustable goal field, Number() · demos-console.js
 ```
 
 To copy a file: open it, then click the **Copy raw file** icon at the top right of the code.
@@ -86,7 +89,7 @@ To copy a file: open it, then click the **Copy raw file** icon at the top right 
 ### Run Code Streak on your computer
 
 1. Get the files: green **Code** button › **Download ZIP** at the top of this page, unzip it,
-   and keep the folder of the episode you want (for example `episode-03`).
+   and keep the folder of the episode you want (for example `episode-04`).
    *(Know Git? `git clone https://github.com/codingqueen40/javascript-cours.git`)*
 2. Open that episode folder in **VS Code** (File › Open Folder…). If a "Restricted Mode" banner shows up, trust the folder.
 3. Open `index.html`, then start the preview with the **Live Preview** extension: right-click `index.html` › **Show Preview**.
@@ -98,7 +101,8 @@ To copy a file: open it, then click the **Copy raw file** icon at the top right 
 | 1 | Your 1st JavaScript mini-app, nothing to install | the console, the DOM, a variable, an event, a condition | [episode-01](episode-01/) |
 | 2 | Your dev workshop + Code Streak in 3 files | VS Code and Live Preview, an HTML page line by line, JavaScript in its own file, the `<head>` bug and `defer`, 5 syntax rules | [episode-02](episode-02/) |
 | 3 | Variables: `let`, `const`… and the trial of `var` | declaring, initializing, reassigning, `let` or `const`, scope, the traps of `var`, naming your variables well | [episode-03](episode-03/) |
-| 4 | Data types | coming soon | |
+| 4 | Data types: why 7 + 1 = 71 | the 7 primitive types and `typeof`, `NaN` and number precision, `BigInt`, `null` vs `undefined`, the `+` trap (type coercion), `Number()` | [episode-04](episode-04/) |
+| 5 | Operators (and the traps of `==`) | coming soon | |
 
 All the videos are on the channel: [youtube.com/@codingqueen40](https://www.youtube.com/@codingqueen40)
 
